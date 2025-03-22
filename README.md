@@ -1,12 +1,66 @@
-# React + Vite
+# TJEditor Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A demonstration project showcasing the features and capabilities of TJEditor - a modern, feature-rich markdown editor with real-time preview functionality.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📝 Real-time markdown editing and preview
+- 🔍 Fuzzy search for links
+- 📑 Split-screen view option
+- ⚡ Custom callout blocks with icons
+- 🎨 Syntax highlighting for code blocks
+- ⌨️ Keyboard shortcuts
+- 🔗 Smart link suggestions
+- 💫 Smooth transitions and modern UI
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/tjeditor-demo.git
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+## Usage
+
+The demo includes three viewing modes:
+- **Editor Mode**: Full-screen markdown editor
+- **Preview Mode**: Full-screen preview of the rendered markdown
+- **Split View**: Side-by-side editor and preview
+
+### Special Syntax
+
+- `[[` - Trigger link suggestions
+- `::` - Add callout blocks
+- `?` - Create tooltips
+- `||` - Add spoiler text
+
+## Built With
+
+- React
+- Vite
+- TJEditor
+- Iconify
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Built with TJEditor
+- Powered by React and Vite
+- Icons provided by Material Design
